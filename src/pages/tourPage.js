@@ -1,4 +1,4 @@
-const tourPage = () => {
+const TourPage = () => {
     return (
         <div>
         Hello
@@ -6,4 +6,4 @@ const tourPage = () => {
     );
 };
 
-export default tourPage; 
+export default TourPage; 

@@ -1,4 +1,5 @@
-const PhotosPage = () => {
+
+const FaqRentersPage = () => {
     return (
         <div>
         Hello
@@ -6,4 +7,4 @@ const PhotosPage = () => {
     );
 };
 
-export default PhotosPage; 
+export default FaqRentersPage; 

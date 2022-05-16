@@ -1,4 +1,4 @@
-const faqPage = () => {
+const FloorPlansPage2 = () => {
     return (
         <div>
         Hello
@@ -6,4 +6,4 @@ const faqPage = () => {
     );
 };
 
-export default faqPage; 
+export default FloorPlansPage2; 

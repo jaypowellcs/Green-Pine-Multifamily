@@ -2,28 +2,28 @@ import {
     Row, 
     Col, 
     Nav,
-    NavItem, 
-    NavLink,  
+    NavItem,  
     DropdownItem, 
     DropdownMenu, 
     DropdownToggle, 
     UncontrolledDropdown,
-    Navbar
+    Container
     } from 'reactstrap';
     import Logo from '../app/assets/img/logo2.png';
+    import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <Navbar color='success' sticky='top' expand='md'>
+        <Container fluid className='site-header' expand='md'>
             <Row>
-                <Col>
-                <img src={Logo} alt="Green Pine Apartment Complex"></img>
+                <Col  md='3'>
+                <img className='navbar-brand' src={Logo} alt="Green Pine Apartment Complex"></img>
                 </Col>
 
-                <Col>
-                <Nav className="justify-content-center">
+                <Col md='9'>
+                <Nav className='nav-header'>
                     <NavItem>
-                        <NavLink active href="#">Amenities 
+                        <NavLink className='nav-link' to="/Amenities">Amenities 
                         </NavLink>
                     </NavItem>
 
@@ -31,22 +31,21 @@ const Header = () => {
                         <DropdownToggle caret>Floor Plans 
                         </DropdownToggle>
                             <DropdownMenu>
-                                <DropdownItem >1 Bedrooms</DropdownItem>
-                                <DropdownItem >2 Bedrooms</DropdownItem>
-                                <DropdownItem>3 Bedrooms</DropdownItem>
+                                <DropdownItem ><NavLink className='nav-link' to="/Floor Plans 1">1 Bedrooms</NavLink></DropdownItem>
+                                <DropdownItem ><NavLink className='nav-link' to="/Floor Plans 2">2 Bedrooms</NavLink></DropdownItem>
                                 <DropdownItem divider />
-                                <DropdownItem>Townhomes</DropdownItem>
+                                <DropdownItem><NavLink className='nav-link' to="/Townhomes">Townhomes</NavLink></DropdownItem>
                             </DropdownMenu>
                     </UncontrolledDropdown>
                    
                     <NavItem>
-                        <NavLink  href="#">
+                        <NavLink className='nav-link' to="/Photos">
                             Photos
                         </NavLink>
                     </NavItem>
 
                     <NavItem>
-                        <NavLink  href="#">
+                        <NavLink className='nav-link' to="/Neighborhood">
                             Neighborhood
                         </NavLink>
                     </NavItem>
@@ -55,15 +54,14 @@ const Header = () => {
                         <DropdownToggle caret>FAQ
                         </DropdownToggle>
                             <DropdownMenu>
-                                <DropdownItem >Applicant FAQ</DropdownItem>
-                                <DropdownItem >Utilities and Schools</DropdownItem>
-                                <DropdownItem>Interactive Room</DropdownItem>
-                                <DropdownItem>Renters Insurance</DropdownItem>
+                                <DropdownItem ><NavLink className='nav-link' to="/FAQ Application">Applicant FAQ</NavLink></DropdownItem>
+                                <DropdownItem ><NavLink className='nav-link' to="/FAQ Schools">Utilities and Schools</NavLink></DropdownItem>
+                                <DropdownItem><NavLink className='nav-link' to="/FAQ Renters">Renters Insurance</NavLink></DropdownItem>
                             </DropdownMenu>
                     </UncontrolledDropdown>
 
                     <NavItem>
-                        <NavLink  href="#">
+                        <NavLink className='nav-link' to="/Tour">
                             Schedule a Tour 
                         </NavLink>
                     </NavItem>
@@ -72,14 +70,14 @@ const Header = () => {
                         <DropdownToggle caret>Contact Us
                         </DropdownToggle>
                             <DropdownMenu>
-                                <DropdownItem >Residents</DropdownItem>
-                                <DropdownItem >Future Investors</DropdownItem>
+                                <DropdownItem ><NavLink className='nav-link' to="/Residents Page">Future Residents</NavLink></DropdownItem>
+                                <DropdownItem ><NavLink className='nav-link' to="/Investors Page">Investors</NavLink></DropdownItem>
                             </DropdownMenu>
                     </UncontrolledDropdown>
                     </Nav>
                 </Col>
             </Row>
-        </Navbar>
+        </Container>
     );
 };
 

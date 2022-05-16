@@ -2,7 +2,7 @@ import { Col, Container, Row } from "reactstrap";
 
 const Footer  = () => {
   return (
-      <Container fluid className="text-center text-md-left font-small pt-4 mt-4" color="success">
+      <Container fluid className=" site-footer text-center text-md-left font-small pt-4 mt-4" color="success">
         <Row>
           <Col md="6">
             <h5 className="title">VISIT</h5>

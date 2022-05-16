@@ -1,5 +1,5 @@
 
-const amenitiesPage = () => {
+const AmenitiesPage = () => {
     return (
         <div>
         Hello
@@ -7,4 +7,4 @@ const amenitiesPage = () => {
     );
 };
 
-export default amenitiesPage; 
+export default AmenitiesPage; 

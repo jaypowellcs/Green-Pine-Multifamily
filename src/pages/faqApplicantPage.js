@@ -1,4 +1,4 @@
-const floorPlansPage = () => {
+const FaqApplicantPage = () => {
     return (
         <div>
         Hello
@@ -6,4 +6,4 @@ const floorPlansPage = () => {
     );
 };
 
-export default floorPlansPage; 
+export default FaqApplicantPage; 

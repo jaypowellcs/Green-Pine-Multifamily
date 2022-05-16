@@ -1,4 +1,4 @@
-const neighborhoodPage = () => {
+const NeighborhoodPage = () => {
     return (
         <div>
         Hello
@@ -6,4 +6,4 @@ const neighborhoodPage = () => {
     );
 };
 
-export default neighborhoodPage; 
+export default NeighborhoodPage; 
