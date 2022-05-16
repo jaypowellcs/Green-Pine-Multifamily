@@ -10,13 +10,18 @@ import {
     UncontrolledDropdown,
     Navbar
     } from 'reactstrap';
+    import Logo from '../app/assets/img/logo2.png';
 
 const Header = () => {
     return (
         <Navbar color='success' sticky='top' expand='md'>
             <Row>
                 <Col>
-                <Nav>
+                <img src={Logo} alt="Green Pine Apartment Complex"></img>
+                </Col>
+
+                <Col>
+                <Nav className="justify-content-center">
                     <NavItem>
                         <NavLink active href="#">Amenities 
                         </NavLink>
