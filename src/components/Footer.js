@@ -1,4 +1,5 @@
 import { Col, Container, Row } from "reactstrap";
+import { NavLink } from 'react-router-dom';
 
 const Footer  = () => {
   return (
@@ -22,25 +23,33 @@ const Footer  = () => {
             <h5 className="title">Site Map</h5>
             <ul>
               <li className="list-unstyled">
-                <a href="#!">Amenities</a>
+                <NavLink className='nav-link' to="/Amenities">Amenities 
+                </NavLink>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Floor Plan</a>
+                <NavLink className='nav-link' to="/Photos">
+                              Photos
+                </NavLink>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Photo</a>
+                <NavLink className='nav-link' to="/Neighborhood">
+                            Neighborhood
+                </NavLink>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Neighborhood</a>
+                <NavLink className='nav-link' to="/Tour">
+                            Schedule a Tour 
+                </NavLink>
               </li>
               <li className="list-unstyled">
-                <a href="#!">FAQ</a>
+                <NavLink className='nav-link' to="/FAQ Application">
+                            FAQ Residents  
+                </NavLink>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Schedule a Tour</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Contact Us</a>
+                <NavLink className='nav-link' to="/Residents Page">
+                            Future Residents  
+                </NavLink>
               </li>
             </ul>
           </Col>
