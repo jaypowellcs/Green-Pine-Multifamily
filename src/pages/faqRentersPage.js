@@ -1,9 +1,8 @@
+import FAQ from '../components/Faq';
 
 const FaqRentersPage = () => {
     return (
-        <div>
-        Hello
-        </div>
+        <FAQ></FAQ> 
     );
 };
 

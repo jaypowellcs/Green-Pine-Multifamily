@@ -1,8 +1,9 @@
+
+import FAQ from '../components/Faq';
+
 const FaqApplicantPage = () => {
     return (
-        <div>
-        Hello
-        </div>
+        <FAQ></FAQ> 
     );
 };
 

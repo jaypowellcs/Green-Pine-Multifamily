@@ -54,9 +54,9 @@ const Header = () => {
                         <DropdownToggle caret>FAQ
                         </DropdownToggle>
                             <DropdownMenu>
-                                <DropdownItem ><NavLink className='nav-link' to="/FAQ Application">Applicant FAQ</NavLink></DropdownItem>
-                                <DropdownItem ><NavLink className='nav-link' to="/FAQ Schools">Utilities and Schools</NavLink></DropdownItem>
-                                <DropdownItem><NavLink className='nav-link' to="/FAQ Renters">Renters Insurance</NavLink></DropdownItem>
+                                <NavLink className='nav-link' to="/FAQ Application"><DropdownItem >Applicant FAQ</DropdownItem></NavLink>
+                                <NavLink className='nav-link' to="/FAQ Schools"><DropdownItem>Utilites and Schools</DropdownItem></NavLink>
+                                <NavLink className='nav-link' to="/FAQ Renters"><DropdownItem>Renters Insurance</DropdownItem></NavLink>
                             </DropdownMenu>
                     </UncontrolledDropdown>
 
@@ -70,7 +70,7 @@ const Header = () => {
                         <DropdownToggle caret>Contact Us
                         </DropdownToggle>
                             <DropdownMenu>
-                                <DropdownItem ><NavLink className='nav-link' to="/Residents Page">Future Residents</NavLink></DropdownItem>
+                                <NavLink className='nav-link' to="/Residents Page"><DropdownItem >Future Residents</DropdownItem></NavLink>
                                 <DropdownItem ><NavLink className='nav-link' to="/Investors Page">Investors</NavLink></DropdownItem>
                             </DropdownMenu>
                     </UncontrolledDropdown>

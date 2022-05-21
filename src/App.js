@@ -9,7 +9,7 @@ import FloorPlansPage2 from '../src/pages/homePage';
 import FloorPlansPageTownhomes from '../src/pages/homePage';
 import PhotosPage from '../src/pages/photosPage';
 import NeighborhoodPage from '../src/pages/neighborhoodPage';
-import FaqApplicationPage from './pages/faqApplicantPage';
+import FaqApplicantPage from '../src/pages/faqApplicantPage';
 import FaqSchoolsPage from '../src/pages/faqSchoolsPage';
 import FaqRentersPage from './pages/faqRentersPage';
 import TourPage from '../src/pages/tourPage';
@@ -25,17 +25,17 @@ function App() {
       <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='Amenities' element={<AmenitiesPage />} />
-          <Route path='Floor Plans 1' element={<FloorPlansPage1 />} />
-          <Route path='Floor Plans 2' element={<FloorPlansPage2 />} />
+          <Route path='Floor%20Plans%201' element={<FloorPlansPage1 />} />
+          <Route path='Floor%20Plans%202' element={<FloorPlansPage2 />} />
           <Route path='Townhomes' element={<FloorPlansPageTownhomes />} />
           <Route path='Photos' element={<PhotosPage />} />
           <Route path='Neighborhood' element={<NeighborhoodPage />} />
-          <Route path='FAQ Application' element={<FaqApplicationPage />} />
-          <Route path='FAQ Schools' element={<FaqSchoolsPage />} />
-          <Route path='FAQ Renters' element={<FaqRentersPage />} />
+          <Route path='FAQ%20Application' element={<FaqApplicantPage />} />
+          <Route path='FAQ%20Schools' element={<FaqSchoolsPage />} />
+          <Route path='FAQ%20Renters' element={<FaqRentersPage />} />
           <Route path='Tour Page' element={<TourPage />} />
-          <Route path='Investors Page' element={<ContactInvestorspage />} />
-          <Route path='Residents Page' element={<ContactResidentsPage />} />
+          <Route path='Residents%20Page' element={<ContactInvestorspage />} />
+          <Route path='Investors%20Page' element={<ContactResidentsPage />} />
       </Routes>
       <Footer />
     </div>

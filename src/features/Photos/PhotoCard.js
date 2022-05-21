@@ -10,7 +10,7 @@ const PhotoCard = ({photo}) => {
                 alt={name}
             />
             <CardImgOverlay>
-                <CardTitle>{name}</CardTitle>
+                <CardTitle></CardTitle>
             </CardImgOverlay>
         </Card>
     );
