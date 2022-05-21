@@ -9,20 +9,19 @@ import {
     UncontrolledDropdown,
     Container
     } from 'reactstrap';
-    import Logo from '../app/assets/img/logo2.png';
-    import { NavLink } from 'react-router-dom';
+import Logo from '../app/assets/img/logo2.png';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
         <Container fluid className='site-header' expand='md'>
             <Row>
-                <Col  md='3'>
-                    <NavLink className='nav-link' to="/"><img className='navbar-brand' src={Logo} alt="Green Pine Apartment Complex"></img>
+                <Col>
+                <Nav className='nav-header' md='10'  color="info">
+                    <NavItem>
+                        <NavLink className='nav-link' to="/"><img className='navbar-brand' src={Logo} alt="Green Pine Apartment Complex"></img>
                     </NavLink>
-                </Col>
-
-                <Col md='9'>
-                <Nav className='nav-header'>
+                    </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to="/Amenities">Amenities 
                         </NavLink>
