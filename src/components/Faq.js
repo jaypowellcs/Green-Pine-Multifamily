@@ -1,12 +1,10 @@
 
-import {Container, Accordion, AccordionBody, AccordionItem, AccordionHeader} from 'reactstrap';
+import {Container, UncontrolledAccordion, AccordionBody, AccordionItem, AccordionHeader} from 'reactstrap';
 
 const FAQ = () => {
     return (
         <Container>
-            <Accordion
-                flush toggle={function noRefCheck(){}}
-            >
+            <UncontrolledAccordion defaultOpen="1">
                 <AccordionItem>
                 <AccordionHeader targetId="1">
                     Accordion Item 1
@@ -52,7 +50,7 @@ const FAQ = () => {
                     , though the transition does limit overflow.
                 </AccordionBody>
                 </AccordionItem>
-            </Accordion>
+            </UncontrolledAccordion>
         </Container>
     );
 };
