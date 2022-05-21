@@ -1,8 +1,12 @@
+
+import { Container } from "reactstrap";
+import PhotoList from "../features/Photos/PhotoList";
+
 const PhotosPage = () => {
     return (
-        <div>
-        Hello
-        </div>
+        <Container>
+            <PhotoList /> 
+        </Container>
     );
 };
 

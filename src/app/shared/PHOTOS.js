@@ -5,11 +5,11 @@ import greenpine_clubhouse from '../assets/img/greenpine_clubhouse.jpg';
 import greenpine_kitchen from '../assets/img/greenpine_kitchen.jpg';
 import greenpine_kitchen2 from '../assets/img/greenpine_kitchen2.jpg';
 import greenpine_livingroom from '../assets/img/greenpine_livingroom.jpg';
-import greenpine_model from '../assets/imggreenpine_model.jpg';
-import greenpine_model2 from '../assets/img greenpine_model2.jpg';
-import greenpine_model3 from '../assets/img/ greenpine_model3.jpg';
+import greenpine_model from '../assets/img/greenpine_model.jpg';
+import greenpine_model2 from '../assets/img/greenpine_model2.jpg';
+import greenpine_model3 from '../assets/img/greenpine_model3.jpg';
 import greenpine_pool_chairs from '../assets/img/greenpine_pool_chairs.jpg';
-import greenpine_pool from '../assets/img/ greenpine_pool.jpg';
+import greenpine_pool from '../assets/img/greenpine_pool.jpg';
 import greenpine_weightroom from '../assets/img/greenpine_weightroom.jpg';
 
 export const PHOTOS = [
