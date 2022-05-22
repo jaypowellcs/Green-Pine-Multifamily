@@ -1,8 +1,13 @@
 import FloorPlanList from "../features/FloorPlans/FloorPlanList";
+import FloorPlansIntro from '../features/FloorPlans/FloorPlansIntro';
+import {Container} from 'reactstrap';
 
 const FloorPlansPage1 = () => {
     return (
-        <FloorPlanList></FloorPlanList>
+        <Container>
+            <FloorPlansIntro></FloorPlansIntro>
+            <FloorPlanList></FloorPlanList>
+        </Container>
     );
 };
 

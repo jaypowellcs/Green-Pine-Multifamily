@@ -5,8 +5,7 @@ import Footer from './components/Footer';
 import HomePage from '../src/pages/homePage';
 import AmenitiesPage from '../src/pages/amenitiesPage';
 import FloorPlansPage1 from '../src/pages/floorPlans1Page';
-import FloorPlansPage2 from '../src/pages/homePage';
-import FloorPlansPageTownhomes from '../src/pages/homePage';
+import FloorPlansPage2 from '../src/pages/floorPlans2Page';
 import PhotosPage from '../src/pages/photosPage';
 import NeighborhoodPage from '../src/pages/neighborhoodPage';
 import FaqApplicantPage from '../src/pages/faqApplicantPage';
@@ -27,7 +26,6 @@ function App() {
           <Route path='Amenities' element={<AmenitiesPage />} />
           <Route path='Floor%20Plans%201' element={<FloorPlansPage1 />} />
           <Route path='Floor%20Plans%202' element={<FloorPlansPage2 />} />
-          <Route path='Townhomes' element={<FloorPlansPageTownhomes />} />
           <Route path='Photos' element={<PhotosPage />} />
           <Route path='Neighborhood' element={<NeighborhoodPage />} />
           <Route path='FAQ%20Application' element={<FaqApplicantPage />} />

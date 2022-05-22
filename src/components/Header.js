@@ -33,8 +33,6 @@ const Header = () => {
                             <DropdownMenu>
                                 <DropdownItem ><NavLink className='nav-link' to="/Floor Plans 1">1 Bedrooms</NavLink></DropdownItem>
                                 <DropdownItem ><NavLink className='nav-link' to="/Floor Plans 2">2 Bedrooms</NavLink></DropdownItem>
-                                <DropdownItem divider />
-                                <DropdownItem><NavLink className='nav-link' to="/Townhomes">Townhomes</NavLink></DropdownItem>
                             </DropdownMenu>
                     </UncontrolledDropdown>
                    
