@@ -14,10 +14,10 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <Container fluid className='site-header' expand='md'>
+        <Container fluid className='site-header' expand='sm'>
             <Row>
-                <Col>
-                <Nav className='nav-header' md='10'  color="info">
+                <Col md='12'>
+                <Nav className='nav-header' color="info">
                     <NavItem>
                         <NavLink className='nav-link' to="/"><img className='navbar-brand' src={Logo} alt="Green Pine Apartment Complex"></img>
                     </NavLink>
