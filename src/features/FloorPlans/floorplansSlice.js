@@ -1,5 +1,6 @@
-import {FloorPlans} from 'src\app\shared\FlOORPLANS.js';
+import { FlOORPLANS } from '../../app/shared/FlOORPLANS';
 
-export const allFloorPlans = () => {
-    return FloorPlans; 
+export const selectAllFloorPlans = () => {
+    return FlOORPLANS; 
 };
+

@@ -16,14 +16,14 @@ export const PHOTOS = [
 
     {
         id: 0, 
-        names: 'Green Pine Model Bathroom',
+        name: 'Green Pine Model Bathroom',
         image: greenpine_bathroom, 
         featured: false, 
         description: 
         ' '
     },
     {
-        id: 0, 
+        id: 1, 
         name: 'Green Pine BBQ',
         image: greenpine_BBQ, 
         featured: false, 
@@ -31,7 +31,7 @@ export const PHOTOS = [
         ''
     },
     {
-        id: 0, 
+        id: 2, 
         name: 'Green Pine Closet',
         image:greenpine_closet, 
         featured: false, 
@@ -39,7 +39,7 @@ export const PHOTOS = [
         ' '
     },
     {
-        id: 0, 
+        id: 3, 
         name: 'Green Pine Clubhouse',
         image:greenpine_clubhouse, 
         featured: false, 
@@ -47,7 +47,7 @@ export const PHOTOS = [
         ' '
     },
     {
-        id: 0, 
+        id: 4, 
         name: 'Green Pine Kitchen',
         image: greenpine_kitchen, 
         featured: false, 
@@ -55,7 +55,7 @@ export const PHOTOS = [
         ' '
     },
     {
-        id: 0, 
+        id: 5, 
         name: 'Green Pine Kitchen 2',
         image: greenpine_kitchen2, 
         featured: false, 
@@ -63,7 +63,7 @@ export const PHOTOS = [
         ' '
     },
     {
-        id: 0, 
+        id: 6, 
         name: 'Green Pine Living Room',
         image: greenpine_livingroom , 
         featured: false, 
@@ -71,7 +71,7 @@ export const PHOTOS = [
         ' '
     },
     {
-        id: 0, 
+        id: 7, 
         name: 'Green Pine Model',
         image: greenpine_model, 
         featured: false, 
@@ -80,7 +80,7 @@ export const PHOTOS = [
     },
 
     {
-        id: 0, 
+        id: 8, 
         name: 'Green Pine Model 2',
         image: greenpine_model2, 
         featured: false, 
@@ -89,7 +89,7 @@ export const PHOTOS = [
     },
 
     {
-        id: 0, 
+        id: 9, 
         name: 'Green Pine Model 3',
         image: greenpine_model3, 
         featured: false, 
@@ -98,7 +98,7 @@ export const PHOTOS = [
     },
 
     {
-        id: 0, 
+        id: 10, 
         name: 'Green Pine Pool Chairs',
         image: greenpine_pool_chairs, 
         featured: false, 
@@ -107,7 +107,7 @@ export const PHOTOS = [
     },
 
     {
-        id: 0, 
+        id: 11, 
         name: 'Green Pine Pool',
         image: greenpine_pool, 
         featured: false, 
@@ -116,7 +116,7 @@ export const PHOTOS = [
     },
 
     {
-        id: 0, 
+        id: 12, 
         name: 'Green Pine Weightroom',
         image: greenpine_weightroom, 
         featured: false, 

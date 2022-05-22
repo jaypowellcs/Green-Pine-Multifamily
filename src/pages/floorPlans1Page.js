@@ -1,8 +1,8 @@
+import FloorPlanList from "../features/FloorPlans/FloorPlanList";
+
 const FloorPlansPage1 = () => {
     return (
-        <div>
-        Hello
-        </div>
+        <FloorPlanList></FloorPlanList>
     );
 };
 
