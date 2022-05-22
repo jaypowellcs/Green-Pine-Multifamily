@@ -1,9 +1,9 @@
 
-import FAQ from '../components/Faq';
+import FaqApplication from '../features/Faq/FaqApplicant';
 
 const FaqApplicantPage = () => {
     return (
-        <FAQ></FAQ> 
+        <FaqApplication></FaqApplication> 
     );
 };
 

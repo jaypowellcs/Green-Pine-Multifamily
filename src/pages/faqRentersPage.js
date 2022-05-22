@@ -1,4 +1,4 @@
-import FAQ from '../components/Faq';
+import FAQ from '../features/Faq/FaqSchools';
 
 const FaqRentersPage = () => {
     return (
