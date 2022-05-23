@@ -1,5 +1,7 @@
 import {UncontrolledCarousel, Container} from 'reactstrap';
-//import pooldusk from 'app/assets/pooldusk.webp';
+import pool from '../../app/assets/img/homepool.jpg' 
+import kitchen from '../../app/assets/img/homekitchen.jpg' 
+import lobby from '../../app/assets/img/apartmentlobby.jpg' 
 
 const HomepageCarousel = () => {
     return (
@@ -10,19 +12,19 @@ const HomepageCarousel = () => {
                 altText: '',
                 caption: '',
                 key: 1,
-                src: 'https://picsum.photos/id/123/1200/600'
+                src: pool, 
                 },
                 {
                 altText: '',
                 caption: '',
                 key: 2,
-                src: 'https://picsum.photos/id/456/1200/600'
+                src: kitchen, 
                 },
                 {
                 altText: '',
                 caption: '',
                 key: 3,
-                src: 'https://picsum.photos/id/678/1200/600'
+                src: lobby, 
                 }
             ]}
         />
