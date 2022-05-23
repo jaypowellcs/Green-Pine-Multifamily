@@ -5,15 +5,15 @@ import apartmentroom from '../../app/assets/img/apartmentroom.jpg';
 const HomePageSection2 = () => {
     return (
         <Container>
-            <Row>
+            <Row className='home-row-content2'>
                 <Col md='5'>
-                    <img className='navbar-brand' src={apartmentroom} alt="Green Pine Apartment Complex"></img>
+                    <img src={apartmentroom} alt="Green Pine Apartment Complex"></img>
                 </Col>
 
                 <Col md='5'>   
                 <h3>Floor Plans</h3>
-                <p>Come home to Green Pine's one-, two- and three-bedroom apartments in Grapevine, TX. Our apartment homes include private pet yards,
-                     kitchen islands, upgraded lighting, a built-in bar and built-in desks perfect for working from home.</p>
+                <p>Come home to Green Pine's one-, two- and three-bedroom apartments in Grapevine, TX. Our apartment homes include private pet yards, kitchen islands, upgraded lighting, a built-in bar and built-in desks perfect for working from home.
+                </p>
                      <ul>
                         <li>1 Bedroom</li>
                         <li>2 Bedroom</li>

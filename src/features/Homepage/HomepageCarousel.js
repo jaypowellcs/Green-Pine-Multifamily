@@ -5,7 +5,8 @@ import lobby from '../../app/assets/img/apartmentlobby.jpg'
 
 const HomepageCarousel = () => {
     return (
-        <Container fluid>
+        <Container  className='home-page-carousel'>
+            <h3>Green Pines Apartment Homes</h3>
         <UncontrolledCarousel
             items={[
                 {

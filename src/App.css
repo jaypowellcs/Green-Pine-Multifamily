@@ -3,8 +3,8 @@ body {
   color: black; 
 }
 
-h4 {
-  color: black;
+h3 {
+  color: rgb(209, 33, 33);
 }
 
 
@@ -17,9 +17,9 @@ h4 {
 
 /*---------------------Header-----------------------------------*/
 .site-header {
-  background-image: linear-gradient(#19790a, rgb(4, 187, 53));
+  background-image: linear-gradient(#19790a, rgb(7, 146, 44));
   padding: 1rem 0;
-  color: black; 
+  color: rgb(157, 20, 20); 
   font-size: x-large;
   
 }
@@ -28,6 +28,7 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-content: space-between;
   color: black; 
   font-size: larger;
 }
@@ -39,8 +40,8 @@ h4 {
   max-width: 6rem;
 }
 
-.nav-link {
-  color:black;
+.nav-link{
+  color:black; 
 }
 
 
@@ -52,4 +53,23 @@ h4 {
   margin-top: 2rem;
 }
 
+/*---------------------Home Page-----------------------------------*/
 
+.home-page-carousel {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 300px;
+}
+
+.home-row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.home-row-content2 {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+  margin: 0px; 
+}

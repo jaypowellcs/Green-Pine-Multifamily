@@ -17,7 +17,7 @@ const Header = () => {
         <Container fluid className='site-header' expand='sm'>
             <Row>
                 <Col md='12'>
-                <Nav className='nav-header' color="info">
+                <Nav className='nav-header'>
                     <NavItem>
                         <NavLink className='nav-link' to="/"><img className='navbar-brand' src={Logo} alt="Green Pine Apartment Complex"></img>
                     </NavLink>
