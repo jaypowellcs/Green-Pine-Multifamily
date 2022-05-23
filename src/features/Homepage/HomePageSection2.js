@@ -1,5 +1,5 @@
 import {Container, Col, Row} from 'reactstrap';
-//import Logo from '../../app/assets/img/logo2';
+import apartmentroom from '../../app/assets/img/apartmentroom.jpg';
 
 
 const HomePageSection2 = () => {
@@ -7,7 +7,7 @@ const HomePageSection2 = () => {
         <Container>
             <Row>
                 <Col md='5'>
-                    <img className='navbar-brand' src={''} alt="Green Pine Apartment Complex"></img>
+                    <img className='navbar-brand' src={apartmentroom} alt="Green Pine Apartment Complex"></img>
                 </Col>
 
                 <Col md='5'>   
