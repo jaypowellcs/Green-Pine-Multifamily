@@ -16,9 +16,8 @@ const FaqSchools= () => {
                     Cable/Telephone/Internet
                     </AccordionHeader>
                     <AccordionBody accordionId="1">
-                    AT&T
-                    (469) 316-2101
-                    http://www.att.com/residents
+                    AT&T (469) 316-2101 
+                    <a href='https://www.att.com/fiber-internet-offer/ultrafast/'>http://www.att.com/residents</a>
                     </AccordionBody>
                 </AccordionItem>
 
@@ -27,7 +26,7 @@ const FaqSchools= () => {
                     Electricity 
                     </AccordionHeader>
                     <AccordionBody accordionId="2">
-                    https://www.powertochoose.org
+                    <a href='https://www.powertochoose.org/'>https://www.powertochoose.org</a>
                     </AccordionBody>
                 </AccordionItem>
 
@@ -46,9 +45,9 @@ const FaqSchools= () => {
                     </AccordionHeader>
                     <AccordionBody accordionId="4">
                     Silver Lake Elementary School
-1301 N. Dooley St.
-Grapevine, TX 76051
-817.251.5750
+                    1301 N. Dooley St.
+                    Grapevine, TX 76051
+                    817.251.5750
                     </AccordionBody>
                 </AccordionItem>
 
@@ -58,10 +57,9 @@ Grapevine, TX 76051
                     </AccordionHeader>
                     <AccordionBody accordionId="5">
                     Grapevine Middle School
-301 Pony Parkway
-Grapevine, TX 76051
-817.251.5660
-
+                    301 Pony Parkway
+                    Grapevine, TX 76051
+                    817.251.5660
                     </AccordionBody>
                 </AccordionItem>
 
@@ -71,9 +69,9 @@ Grapevine, TX 76051
                     </AccordionHeader>
                     <AccordionBody accordionId="6">
                     Colleyville Heritage High School
-5401 Heritage Avenue
-Colleyville, TX 76034
-817.305.4700
+                    5401 Heritage Avenue
+                    Colleyville, TX 76034
+                    817.305.4700
                     </AccordionBody>
                 </AccordionItem>
 
@@ -82,7 +80,7 @@ Colleyville, TX 76034
                     School System Website
                     </AccordionHeader>
                     <AccordionBody accordionId="7">
-                    Grapevine-Colleyville Independent School District
+                    <a href='https://www.gcisd.net/'>Grapevine-Colleyville Independent School District</a>
                     </AccordionBody>
                 </AccordionItem>
             </UncontrolledAccordion>

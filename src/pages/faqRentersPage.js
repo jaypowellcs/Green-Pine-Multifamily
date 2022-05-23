@@ -1,8 +1,8 @@
-import FAQ from '../features/Faq/FaqSchools';
+import FaqInsurance from '../features/Faq/FaqInsurance';
 
 const FaqRentersPage = () => {
     return (
-        <FAQ></FAQ> 
+        <FaqInsurance></FaqInsurance>
     );
 };
 

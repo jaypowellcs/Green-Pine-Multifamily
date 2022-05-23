@@ -42,12 +42,6 @@ const Header = () => {
                         </NavLink>
                     </NavItem>
 
-                    <NavItem>
-                        <NavLink className='nav-link' to="/Neighborhood">
-                            Neighborhood
-                        </NavLink>
-                    </NavItem>
-
                     <UncontrolledDropdown>
                         <DropdownToggle caret>FAQ
                         </DropdownToggle>
@@ -64,14 +58,11 @@ const Header = () => {
                         </NavLink>
                     </NavItem>
 
-                    <UncontrolledDropdown>
-                        <DropdownToggle caret>Contact Us
-                        </DropdownToggle>
-                            <DropdownMenu>
-                                <NavLink className='nav-link' to="/Residents Page"><DropdownItem >Future Residents</DropdownItem></NavLink>
-                                <DropdownItem ><NavLink className='nav-link' to="/Investors Page">Investors</NavLink></DropdownItem>
-                            </DropdownMenu>
-                    </UncontrolledDropdown>
+                    <NavItem>
+                        <NavLink className='nav-link' to="/Residents Page">
+                            Contact Us
+                        </NavLink>
+                    </NavItem>
                     </Nav>
                 </Col>
             </Row>

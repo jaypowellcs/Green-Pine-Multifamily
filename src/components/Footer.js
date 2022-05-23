@@ -31,11 +31,7 @@ const Footer  = () => {
                               Photos
                 </NavLink>
               </li>
-              <li className="list-unstyled">
-                <NavLink className='nav-link' to="/Neighborhood">
-                            Neighborhood
-                </NavLink>
-              </li>
+              
               <li className="list-unstyled">
                 <NavLink className='nav-link' to="/Tour">
                             Schedule a Tour 

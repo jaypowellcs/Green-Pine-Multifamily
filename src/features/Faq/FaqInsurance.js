@@ -1,80 +1,51 @@
-import {Container, UncontrolledAccordion, AccordionBody, AccordionItem, AccordionHeader, Row} from 'reactstrap';
+import {Container, Row, ListGroup, ListGroupItem} from 'reactstrap';
+import Rentersinsurance from '../../app/assets/img/rentersinsurance.jpg';
+import Rentersinsurancebutton from '../../app/assets/img/rentersinsurancebutton.jpg';
 
 const FaqInsurance= () => {
     return (
         <Container>
             <Row>
-            <h3>APPLICANT FAQ</h3>
-            <p>Questions regarding the application process? We're here to help!</p>
-
-            <p>Click on one of the questions below to learn more!</p>
+                <a href='https://assurantrenters.com/'><img className='navbar-brand' src={Rentersinsurance} alt="Renters Insurance Logo"></img></a>
             </Row>
-            <UncontrolledAccordion defaultOpen="1">
-                <AccordionItem>
-                    <AccordionHeader targetId="1">
-                    Who should I include on my application?
-                    </AccordionHeader>
-                    <AccordionBody accordionId="1">
-                    You should include everyone who will be living in the apartment, including those under the age of 18 and guarantors (if applicable).  Everyone 18 and older will be listed as a leaseholder for your apartment.   
-                    </AccordionBody>
-                </AccordionItem>
 
-                <AccordionItem>
-                    <AccordionHeader targetId="2">
-                    What if I forgot to add someone to my application?
-                    </AccordionHeader>
-                    <AccordionBody accordionId="2">
-                    Be sure to contact us to let us know you added someone so we can ensure they are included in the approval process.
-                    </AccordionBody>
-                </AccordionItem>
+            <Row>
+                <h3>RENTERS INSURANCE: WHAT YOU NEED TO KNOW</h3>
+                <p>Renters insurance is insurance coverage designed specifically for renters. We require that every resident have a renters liability insurance policy with $100,000 in liability coverage. We also highly recommend that you get coverage for your personal belongings. None of us expect or want an unfortunate event to happen to us, but renters insurance can protect you if something does occur.</p>
+            </Row>
 
-                <AccordionItem>
-                    <AccordionHeader targetId="3">
-                        How do I pay additional application-related fees and deposits?
-                    </AccordionHeader>
-                    <AccordionBody accordionId="3">
-                    When you login to your application, any outstanding charges will appear so you can easily make a payment.
-                    </AccordionBody>
-                </AccordionItem>
+            <Row>
+                <h3>WHAT DOES RENTERS INSURANCE COVER AND HOW MUCH DOES IT COST?</h3>
+                <p>Policies can cover a variety of events including fire, lightning strike, vandalism and theft. Prices vary depending on the amount and type of coverage, but can be as little as $12 per month.</p>
+            </Row>
 
-                <AccordionItem>
-                    <AccordionHeader targetId="4">
-                    When can I expect to hear from the Leasing Office regarding my application?
-                    </AccordionHeader>
-                    <AccordionBody accordionId="4">
-                    We will contact you as quickly as possible! We know that youll be waiting to hear from us and our goal is to make this a fast and easy process for you.
-                    </AccordionBody>
-                </AccordionItem>
+            <Row>
+                <h3>WHY IS LIABILITY INSURANCE REQUIRED?</h3>
+                <p>It provides financial protection to you when you accidentally damage or destroy the property. For example, if you are at fault for a fire, then you are financially responsible for the damage to your apartment and any other apartments damaged by the fire. Unfortunately, accidents do occur and liability due to resident negligence falls upon the resident. One accident can make you liable for thousands of dollars.</p>
+            </Row>
 
-                <AccordionItem>
-                    <AccordionHeader targetId="5">
-                    How do I sign my lease?
-                    </AccordionHeader>
-                    <AccordionBody accordionId="5">
-                    We have electronic lease signing which is super easy and convenient!
+            <Row>
+                <a href='https://assurantrenters.com/'><img className='navbar-brand' src={Rentersinsurancebutton} alt="Renters Insurance Button"></img></a>
+            </Row>
 
-                    After your application is approved, each leaseholder will receive an email with instructions to review and electronically sign the lease.
-                    </AccordionBody>
-                </AccordionItem>
+            <Row>
+                <p>We are partnered with Assurant to provide quality renters insurance at a reasonable price.</p>
+                <ListGroup numbered flush>
+                    <ListGroupItem>
+                    <strong>Go to <a href="https://assurantrenters.com/">insuranceformyplace.com</a> and click "Get a Quote"</strong> after selecting your state and community. 
+                    </ListGroupItem>
 
-                <AccordionItem>
-                    <AccordionHeader targetId="6">
-                    How much will my first payment be?
-                    </AccordionHeader>
-                    <AccordionBody accordionId="6">
-                    Once your application has been approved, we will contact you by phone and send you a welcome letter via email, which will include the amount of your first payment and other important information about your move.
-                    </AccordionBody>
-                </AccordionItem>
+                    <ListGroupItem>
+                    <strong>Select a policy to add liability coverage and choose your payment plan.</strong> Be sure that your policy has a minimum of $100,000 in liability coverage.
+                    </ListGroupItem>
 
-                <AccordionItem>
-                    <AccordionHeader targetId="7">
-                    If I have a question that isn't covered above, who should I contact?
-                    </AccordionHeader>
-                    <AccordionBody accordionId="7">
-                    We are here to help you! We welcome you to contact us at the leasing office.
-                    </AccordionBody>
-                </AccordionItem>
-            </UncontrolledAccordion>
+                    <ListGroupItem>
+                    <strong>Enter your information;</strong> including listing your community's name and physical address as the additional interested party. Assurant will then email us a copy of your policy and youre all set!
+                    </ListGroupItem>
+                </ListGroup>
+                <p>Please know that you may obtain renters insurance through any company of your choosing.</p>
+                <p>The most important thing is that you have coverage during your entire residency!</p>
+            </Row>
         </Container>
     );
 };
