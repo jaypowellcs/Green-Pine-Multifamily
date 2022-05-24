@@ -1,22 +1,16 @@
 import { 
-    Row, 
-    Col, 
     Nav,
     NavItem,  
     DropdownItem, 
     DropdownMenu, 
     DropdownToggle, 
     UncontrolledDropdown,
-    Container
     } from 'reactstrap';
 import Logo from '../app/assets/img/logo2.png';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <Container fluid className='site-header' expand='sm'>
-            <Row>
-                <Col md='12'>
                 <Nav className='nav-header'>
                     <NavItem>
                         <NavLink className='nav-link' to="/"><img className='navbar-brand' src={Logo} alt="Green Pine Apartment Complex"></img>
@@ -64,9 +58,6 @@ const Header = () => {
                         </NavLink>
                     </NavItem>
                     </Nav>
-                </Col>
-            </Row>
-        </Container>
     );
 };
 
