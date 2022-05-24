@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Header2 from './components/Header2';
+import Header from './components/Header';
 import Footer from './components/Footer';
 import HomePage from '../src/pages/homePage';
 import AmenitiesPage from '../src/pages/amenitiesPage';
@@ -18,7 +18,7 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className='App'>
-      <Header2/>
+      <Header/>
       <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='Amenities' element={<AmenitiesPage />} />

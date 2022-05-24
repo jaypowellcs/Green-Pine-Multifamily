@@ -5,60 +5,110 @@ import {
     DropdownMenu, 
     DropdownToggle, 
     UncontrolledDropdown,
+    Navbar, 
+    NavbarBrand, 
+    NavbarToggler,
+    Collapse,
+    Container,
+
     } from 'reactstrap';
 import Logo from '../app/assets/img/logo2.png';
 import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
 
-const Header = () => {
+const Header2 = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
     return (
-                <Nav className='nav-header'>
-                    <NavItem>
-                        <NavLink className='nav-link' to="/"><img className='navbar-brand' src={Logo} alt="Green Pine Apartment Complex"></img>
-                    </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink className='nav-link' to="/Amenities">Amenities 
-                        </NavLink>
-                    </NavItem>
+    <Container>
+        <Navbar
+            color="success"
+            dark
+            expand="md"
+        >
+        <NavbarBrand href="/">
+            <NavLink className='nav-link' to="/">
+                <img className='navbar-brand' src={Logo} alt="Green Pine Apartment Complex"></img>
+            </NavLink>
+        </NavbarBrand>
 
-                    <UncontrolledDropdown>
-                        <DropdownToggle caret>Floor Plans 
-                        </DropdownToggle>
-                            <DropdownMenu>
-                                <DropdownItem ><NavLink className='nav-link' to="/Floor Plans 1">1 Bedrooms</NavLink></DropdownItem>
-                                <DropdownItem ><NavLink className='nav-link' to="/Floor Plans 2">2 Bedrooms</NavLink></DropdownItem>
-                            </DropdownMenu>
-                    </UncontrolledDropdown>
-                   
-                    <NavItem>
-                        <NavLink className='nav-link' to="/Photos">
-                            Photos
-                        </NavLink>
-                    </NavItem>
+        <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
+        <Collapse isOpen={menuOpen}navbar>
+        <Nav
+            className="ms-auto"
+            navbar
+        >
+            <NavItem>
+            <NavLink className='nav-link' to="/Amenities">
+                Amenities 
+            </NavLink>
+            </NavItem>
 
-                    <UncontrolledDropdown>
-                        <DropdownToggle caret>FAQ
-                        </DropdownToggle>
-                            <DropdownMenu>
-                                <NavLink className='nav-link' to="/FAQ Application"><DropdownItem >Applicant FAQ</DropdownItem></NavLink>
-                                <NavLink className='nav-link' to="/FAQ Schools"><DropdownItem>Utilites and Schools</DropdownItem></NavLink>
-                                <NavLink className='nav-link' to="/FAQ Renters"><DropdownItem>Renters Insurance</DropdownItem></NavLink>
-                            </DropdownMenu>
-                    </UncontrolledDropdown>
+            <NavItem>
+                <NavLink className='nav-link' to="/Photos">
+                    Photos
+                </NavLink>
+            </NavItem>
 
-                    <NavItem>
-                        <NavLink className='nav-link' to="/Tour">
-                            Schedule a Tour 
-                        </NavLink>
-                    </NavItem>
+            <UncontrolledDropdown
+            inNavbar="true"
+            nav
+            >
+            <DropdownToggle
+                caret
+                nav
+            >
+                Apartment Options 
+            </DropdownToggle>
+                <DropdownMenu end>
+                    <DropdownItem>
+                        <NavLink className='nav-link' to="/Floor Plans 1"><DropdownItem>1 Bedroom</DropdownItem></NavLink>
+                    </DropdownItem>
+                    <DropdownItem>
+                        <NavLink className='nav-link' to="/Floor Plans 2"><DropdownItem>2 Bedrooms</DropdownItem></NavLink>
+                    </DropdownItem>
+                </DropdownMenu>`
+            </UncontrolledDropdown>
 
-                    <NavItem>
-                        <NavLink className='nav-link' to="/Residents Page">
-                            Contact Us
-                        </NavLink>
-                    </NavItem>
-                    </Nav>
+            <NavItem>
+                <NavLink className='nav-link' to="/Tour">
+                    Schedule a Tour 
+                </NavLink>
+            </NavItem>
+
+            <UncontrolledDropdown
+            inNavbar
+            nav
+            >
+            <DropdownToggle
+                caret
+                nav
+            >
+                Apartment Options 
+            </DropdownToggle>
+                <DropdownMenu right>
+                    <DropdownItem>
+                        <NavLink className='nav-link' to="/FAQ Application"><DropdownItem >Applicant FAQ</DropdownItem></NavLink>
+                    </DropdownItem>
+                    <DropdownItem>
+                        <NavLink className='nav-link' to="/FAQ Schools"><DropdownItem>Utilites and Schools</DropdownItem></NavLink>
+                    </DropdownItem>
+                    <DropdownItem>
+                        <NavLink className='nav-link' to="/FAQ Renters"><DropdownItem>Renters Insurance</DropdownItem></NavLink>
+                    </DropdownItem>
+                </DropdownMenu>`
+            </UncontrolledDropdown>
+
+            <NavItem>
+                <NavLink className='nav-link' to="/Residents Page">
+                    Contact Us
+                </NavLink>
+            </NavItem>
+        </Nav>
+        </Collapse>
+    </Navbar>
+    </Container>
     );
 };
 
-export default Header;
+export default Header2; 
