@@ -20,7 +20,7 @@ const Header2 = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-    <Container>
+    <Container fluid>
         <Navbar
             color="success"
             dark

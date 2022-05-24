@@ -3,52 +3,52 @@ import { NavLink } from 'react-router-dom';
 
 const Footer  = () => {
   return (
-      <Container fluid className=" site-footer text-center text-md-left font-small pt-4 mt-4" color="success">
+      <Container fluid className=" site-footer">
         <Row>
-          <Col md="6">
-            <h5 className="title">VISIT</h5>
+          <Col>
+            <h5 className="title-footer">VISIT</h5>
+            <h7>Green Pines Apartment Complex</h7>
             <p>
-            Bexley Grapevine
-            3535 Bluffs Lane
+            123 Main Street 
             Grapevine, TX 76051
-            Opens in a new tab
+            </p>
             
-            Phone Number (833) 245-0783
-            Fax: (817) 756-5567
-
-            Maintenance: (817) 601-8652
+            <p>
+              <i class="fa fa-phone-square" aria-hidden="true"><a href="tel:1111111111" style={{ color: 'rgba(255,255,255,.75)' }}>Green Pines (833) 111-1111</a></i>
+              <i class="fa fa-phone-square" aria-hidden="true"><a href="tel:111111111" style={{ color: 'rgba(255,255,255,.75)' }}>Maintenance (833) 111-1111</a></i>
             </p>
           </Col>
-          <Col md="6">
-            <h5 className="title">Site Map</h5>
+        
+
+        
+          <Col>
+            <h5 className="title-footer">Site Map</h5>
             <ul>
+              
               <li className="list-unstyled">
-                <NavLink className='nav-link' to="/Amenities">Amenities 
-                </NavLink>
-              </li>
-              <li className="list-unstyled">
-                <NavLink className='nav-link' to="/Photos">
-                              Photos
+                <NavLink className='nav-link' to="/Amenities" style={{ color: 'rgba(255,255,255,.75)' }}>
+                  <i className="fa fa-building" aria-hidden="true"> Amenities</i>
                 </NavLink>
               </li>
               
               <li className="list-unstyled">
-                <NavLink className='nav-link' to="/Tour">
-                            Schedule a Tour 
+                <NavLink className='nav-link' to="/Photos" style={{ color: 'rgba(255,255,255,.75)' }}>
+                <i className="fa fa-camera" aria-hidden="true"> Photos</i>
+                </NavLink>
+              </li>
+        
+              <li className="list-unstyled">
+                <NavLink className='nav-link' to="/Tour" style={{ color: 'rgba(255,255,255,.75)' }}>
+                <i className="fa fa-calendar" aria-hidden="true"> Schedule a Tour</i> 
                 </NavLink>
               </li>
               <li className="list-unstyled">
-                <NavLink className='nav-link' to="/FAQ Application">
-                            FAQ Residents  
-                </NavLink>
-              </li>
-              <li className="list-unstyled">
-                <NavLink className='nav-link' to="/Residents Page">
-                            Future Residents  
+                <NavLink className='nav-link 'style={{ color: 'rgba(255,255,255,.75)' }}  to="/FAQ Application">
+                  <i class="fa fa-question" aria-hidden="true"> FAQ Residents</i>
                 </NavLink>
               </li>
             </ul>
-          </Col>
+            </Col>
         </Row>
       </Container>
   );
