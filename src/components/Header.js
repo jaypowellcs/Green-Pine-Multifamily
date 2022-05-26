@@ -51,7 +51,7 @@ const Header2 = () => {
             </NavItem>
 
             <UncontrolledDropdown
-            inNavbar="true"
+            inNavbar='true'
             nav
             >
             <DropdownToggle
@@ -67,7 +67,7 @@ const Header2 = () => {
                     <DropdownItem>
                         <NavLink className='nav-link' to="/Floor Plans 2"><DropdownItem>2 Bedrooms</DropdownItem></NavLink>
                     </DropdownItem>
-                </DropdownMenu>`
+                </DropdownMenu>
             </UncontrolledDropdown>
 
             <NavItem>
@@ -96,7 +96,7 @@ const Header2 = () => {
                     <DropdownItem>
                         <NavLink className='nav-link' to="/FAQ Renters"><DropdownItem>Renters Insurance</DropdownItem></NavLink>
                     </DropdownItem>
-                </DropdownMenu>`
+                </DropdownMenu>
             </UncontrolledDropdown>
 
             <NavItem>
