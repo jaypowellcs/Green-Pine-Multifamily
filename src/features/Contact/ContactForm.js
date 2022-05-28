@@ -11,8 +11,15 @@ const ContactForm = () => {
 
     return (
 
-        <Card className='mt-5'>
-            <CardTitle tag='h5'>
+        <Card    
+        body
+        color="success"
+        inverse
+        className='mt-5'>
+            <CardTitle tag='h5'
+               body
+               color="success"
+               inverse>
                 Contact Us
             </CardTitle>
             <CardSubtitle>
@@ -22,7 +29,6 @@ const ContactForm = () => {
             <CardBody>
                 <Formik
                     initialValues={{
-                        select:'How can we help you?',
                         firstName: '',
                         lastName: '',
                         phoneNum: '',
@@ -40,29 +46,23 @@ const ContactForm = () => {
                                 How can we help you?
                             </Label>
                             <Col md='8'>
-                                <Field 
-                                as="select" 
-                                name="select"
-                                >
-                                    <option value='rent'>
-                                        Renting an Apartment
-                                    </option>
-                                    
-                                    <option value='feedback'>
-                                        Providing Feedback
-                                    </option>
-                                    <option value='management'>
-                                        Management Contact 
-                                    </option>
-                                </Field>
+                            <Field 
+                                    className='form-control'
+                                    name='contactType'
+                                    as='select'
+                            >
+                                <option>Renting an Apartment</option>
+                                <option>Providing Feedback</option>
+                                <option>Management Contact</option>
+                            </Field>
                             </Col>
                         </FormGroup>
 
                         <FormGroup row>
-                            <Label htmlFor='firstName' md='4'>
-                                First Name
+                            <Label htmlFor='firstName' md='2'>
+                            First Name
                             </Label>
-                            <Col md='8'>
+                            <Col md='10'>
                                 <Field
                                     name='firstName'
                                     placeholder='First Name'
@@ -73,6 +73,7 @@ const ContactForm = () => {
                                 </ErrorMessage>
                             </Col>
                         </FormGroup>
+
                         <FormGroup row>
                             <Label htmlFor='lastName' md='2'>
                                 Last Name 
@@ -88,6 +89,7 @@ const ContactForm = () => {
                                 </ErrorMessage>
                             </Col>
                         </FormGroup>
+
                         <FormGroup row>
                             <Label  htmlFor='phoneNum' md='2'>
                                 Phone
@@ -103,6 +105,7 @@ const ContactForm = () => {
                                 </ErrorMessage>
                             </Col>
                         </FormGroup>
+
                         <FormGroup row>
                             <Label  htmlFor='email' md='2'>
                                 Email
@@ -119,26 +122,7 @@ const ContactForm = () => {
                                 </ErrorMessage>
                             </Col>
                         </FormGroup>
-                        <FormGroup row>
-                            <Label check md={{size: 4, offset: 2 }}>
-                                <Field
-                                    name='agree'
-                                    type='checkbox'
-                                    className='form-check-input'
-                                />{' '}
-                                May we contact you? 
-                            </Label>
-                            <Col md='4'>
-                            <Field 
-                                    className='form-control'
-                                    name='contactType'
-                                    as='select'
-                            >
-                                <option>By Phone</option>
-                                <option>By Email</option>
-                            </Field>
-                            </Col>
-                        </FormGroup>
+
                         <FormGroup row>
                             <Label htmlFor='feedback' md='2'>
                                 Your Feedback 
@@ -154,11 +138,10 @@ const ContactForm = () => {
                         </FormGroup>
                         <FormGroup row>
                             <Col md={{size: 10, offset:2}}>
-                                <Button type='submit' color='primary'>
+                                <Button type='submit' color='light'>
                                     Send Feedback 
                                 </Button>
                             </Col>
-
                         </FormGroup>
                     </Form>
                 </Formik>
