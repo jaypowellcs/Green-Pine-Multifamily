@@ -28,7 +28,7 @@ function App() {
           <Route path='FAQ%20Application' element={<FaqApplicantPage />} />
           <Route path='FAQ%20Schools' element={<FaqSchoolsPage />} />
           <Route path='FAQ%20Renters' element={<FaqRentersPage />} />
-          <Route path='Tour Page' element={<TourPage />} />
+          <Route path='Tour' element={<TourPage />} />
           <Route path='Residents%20Page' element={<ContactResidentsPage />} />
       </Routes>
       <Footer />

@@ -1,17 +1,17 @@
-import {Card, CardImg, CardImgOverlay, CardTitle} from 'reactstrap';
+import {Card, CardImg, CardTitle} from 'reactstrap';
 
 const PhotoCard = ({photo}) => {
     const {image, name} = photo; 
     return (
-        <Card>
+        <Card
+        outline
+        >
             <CardImg
                 width='100%'
                 src={image}
                 alt={name}
             />
-            <CardImgOverlay>
-                <CardTitle></CardTitle>
-            </CardImgOverlay>
+            <CardTitle>{name}</CardTitle>
         </Card>
     );
 }

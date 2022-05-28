@@ -3,6 +3,7 @@ import AmenitiesIntro from '../features/Amenities/AmenitiesIntro';
 import CommunityAmenities from '../features/Amenities/CommunityAmenities';
 import ApartmentAmenities from '../features/Amenities/ApartmentAmenities';
 
+
 const AmenitiesPage = () => {
     return (
         <Container>
