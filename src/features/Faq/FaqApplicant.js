@@ -2,19 +2,19 @@ import {Container, UncontrolledAccordion, AccordionBody, AccordionItem, Accordio
 
 const FaqApplicant= () => {
     return (
-        <Container>
-            <Row>
+        <Container >
+            <Row className='p-1 m-2'>
             <h3>APPLICANT FAQ</h3>
             <p>Questions regarding the application process? We're here to help!</p>
 
             <p>Click on one of the questions below to learn more!</p>
             </Row>
-            <UncontrolledAccordion defaultOpen="1">
-                <AccordionItem>
+            <UncontrolledAccordion defaultOpen="1" className='p-1 m-2'>
+                <AccordionItem >
                     <AccordionHeader targetId="1">
                     Who should I include on my application?
                     </AccordionHeader>
-                    <AccordionBody accordionId="1">
+                    <AccordionBody accordionId="1" >
                     You should include everyone who will be living in the apartment, including those under the age of 18 and guarantors (if applicable).  Everyone 18 and older will be listed as a leaseholder for your apartment.   
                     </AccordionBody>
                 </AccordionItem>

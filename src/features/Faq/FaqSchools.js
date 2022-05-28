@@ -4,13 +4,13 @@ import {Container, UncontrolledAccordion, AccordionBody, AccordionItem, Accordio
 const FaqSchools= () => {
     return (
         <Container>
-            <Row>
+            <Row className='p-1 m-2'>
             <h3>UTILITIES AND SCHOOLS</h3>
             <p>Questions regarding the utilities and schools? We're here to help!</p>
 
             <p>Click on one of the questions below to learn more!</p>
             </Row>
-            <UncontrolledAccordion defaultOpen="1">
+            <UncontrolledAccordion defaultOpen="1" className='p-1 m-2'>
                 <AccordionItem>
                     <AccordionHeader targetId="1">
                     Cable/Telephone/Internet

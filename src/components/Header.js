@@ -84,7 +84,7 @@ const Header2 = () => {
                 caret
                 nav
             >
-                Apartment Options 
+                Frequent Asked Questions 
             </DropdownToggle>
                 <DropdownMenu right>
                     <DropdownItem>
