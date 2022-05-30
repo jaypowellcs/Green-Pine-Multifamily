@@ -6,7 +6,7 @@ const FaqInsurance= () => {
     return (
         <Container>
             <Row>
-                <a href='https://assurantrenters.com/' className='p-1 m-2'><img className='navbar-brand' src={Rentersinsurance} alt="Renters Insurance Logo" ></img></a>
+                <a href='https://assurantrenters.com/' className='p-1 m-2' target='_blank' rel="noreferrer"><img className='img-fluid' src={Rentersinsurance} alt="Renters Insurance Logo" ></img></a>
             </Row>
 
             <Row className='insurance-row-content'>
@@ -25,14 +25,14 @@ const FaqInsurance= () => {
             </Row>
 
             <Row className='insurance-row-content'>
-                <a href='https://assurantrenters.com/' className='p-1 m-2'><img className='navbar-brand' src={Rentersinsurancebutton} alt="Renters Insurance Button"></img></a>
+                <a href='https://assurantrenters.com/' className='p-1 m-2' target='_blank' rel="noreferrer"><img className='img-fluid' src={Rentersinsurancebutton} alt="Renters Insurance Button"></img></a>
             </Row>
 
             <Row className='insurance-row-content mt-1 p-1'>
                 <p>We are partnered with Assurant to provide quality renters insurance at a reasonable price.</p>
                 <ListGroup numbered flush>
                     <ListGroupItem>
-                    <strong>Go to <a href="https://assurantrenters.com/">insuranceformyplace.com</a> and click "Get a Quote"</strong> after selecting your state and community. 
+                    <strong>Go to <a href="https://assurantrenters.com/" target='_blank' rel="noreferrer">insuranceformyplace.com</a> and click "Get a Quote"</strong> after selecting your state and community. 
                     </ListGroupItem>
 
                     <ListGroupItem>

@@ -17,7 +17,7 @@ const FaqSchools= () => {
                     </AccordionHeader>
                     <AccordionBody accordionId="1">
                     AT&T (469) 316-2101 
-                    <a href='https://www.att.com/fiber-internet-offer/ultrafast/'>http://www.att.com/residents</a>
+                    <a href='https://www.att.com/fiber-internet-offer/ultrafast/' target='_blank' rel="noreferrer"> http://www.att.com/residents</a>
                     </AccordionBody>
                 </AccordionItem>
 
@@ -26,7 +26,7 @@ const FaqSchools= () => {
                     Electricity 
                     </AccordionHeader>
                     <AccordionBody accordionId="2">
-                    <a href='https://www.powertochoose.org/'>https://www.powertochoose.org</a>
+                    <a href='https://www.powertochoose.org/' target='_blank' rel="noreferrer">https://www.powertochoose.org</a>
                     </AccordionBody>
                 </AccordionItem>
 
@@ -80,7 +80,7 @@ const FaqSchools= () => {
                     School System Website
                     </AccordionHeader>
                     <AccordionBody accordionId="7">
-                    <a href='https://www.gcisd.net/'>Grapevine-Colleyville Independent School District</a>
+                    <a href='https://www.gcisd.net/' rel="noreferrer" target='_blank'>Grapevine-Colleyville Independent School District</a>
                     </AccordionBody>
                 </AccordionItem>
             </UncontrolledAccordion>
