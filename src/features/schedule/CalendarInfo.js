@@ -29,6 +29,51 @@ const CalendarInfo = () => {
                     </Button>
                 </Card> 
                 </Col>
+
+                <Col md='6'>
+                <Card
+                        body
+                        color="success"
+                        inverse
+                        className='p-1 m-5'
+                    >
+                        <CardTitle tag="h5">
+                            Select a Time to Tour 
+                        </CardTitle>
+
+                        <CardText>
+                            Times available
+                        </CardText>
+
+                        <Button className='p-1 m-2 btn btn-light'>
+                            9:00 AM  
+                        </Button>
+
+                        <Button className='p-1 m-2 btn btn-light'>
+                            10:00 AM 
+                        </Button>
+
+                        <Button className='p-1 m-2 btn btn-light'>
+                            11:00 AM 
+                        </Button>
+
+                        <Button className='p-1 m-2 btn btn-light'>
+                            1:00 PM 
+                        </Button>
+
+                        <Button className='p-1 m-2 btn btn-light'>
+                            2:00 PM  
+                        </Button>
+
+                        <Button className='p-1 m-2 btn btn-light'>
+                            3:00 PM  
+                        </Button>
+
+                        <Button className='p-1 m-2 btn btn-light'>
+                            4:00 PM  
+                        </Button>
+                    </Card>
+                </Col>
             </Row>
         </Container>
     )

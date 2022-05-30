@@ -1,9 +1,8 @@
 import CalendarInfo from '../features/schedule/CalendarInfo'
 
-
 const TourPage = () => {
     return (
-        <CalendarInfo/>     
+       <CalendarInfo />
     );
 };
 
