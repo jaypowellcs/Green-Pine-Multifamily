@@ -17,13 +17,13 @@ const ContactDetails = () => {
                             className="mt-2 p-2"
                             tag="h2" 
                         >
-                        <i class="fa fa-phone-square" aria-hidden="true"> Phone Number(833) 245-0783</i>
+                        <i class="fa fa-phone-square" aria-hidden="true"> Phone Number (833) 111-1111</i>
                         
                         </CardSubtitle>
                         <CardSubtitle className="mb-2 p-2 "
                             tag="h2" >
                         <br></br>
-                        <i class="fa fa-map-marker" aria-hidden="true"> Green Pines Apartment Complex
+                        <i class="fa fa-map-marker" aria-hidden="true"> Green Pines Apartment Complex<br></br>
                             123 Main Street
                             Grapevine, TX 76051</i>
                         </CardSubtitle>
@@ -31,7 +31,7 @@ const ContactDetails = () => {
                         className="mt-2 p-2"
                         >
                             <ul>
-                                <i class="fa fa-clock-o" aria-hidden="true"> Office Hours</i>
+                                <i class="fa fa-clock-o" aria-hidden="true">Office Hours</i>
                                     <li>Monday: 9 AM to- 6 PM
                                     </li>
 
@@ -62,9 +62,9 @@ const ContactDetails = () => {
                                 <br></br>
                             <i class="fa fa-fax" aria-hidden="true" ><a href="tel:+496170961709" style={{ color: 'rgba(255,255,255,.75)' }} > Fax: (817) 756-5567</a></i>
                             <br></br>
-                            <i class="fa fa-phone" aria-hidden="true"><a href="tel:+496170961709" style={{ color: 'rgba(255,255,255,.75)' }} > Maintenance: (817) 601-8652</a></i>
+                            <i class="fa fa-phone" aria-hidden="true"><a href="tel:+496170961709" style={{ color: 'rgba(255,255,255,.75)' }} > Maintenance: (833) 111-1111</a></i>
                             <br></br>
-                            <i class="fa fa-phone" aria-hidden="true"><a href="tel:+496170961709" style={{ color: 'rgba(255,255,255,.75)' }}  > Property: (833) 245-0783</a></i>
+                            <i class="fa fa-phone" aria-hidden="true"><a href="tel:+496170961709" style={{ color: 'rgba(255,255,255,.75)' }}  > Property: (833) 111-1111</a></i>
                                 <br></br>
                         </CardBody>
                     </Card>
