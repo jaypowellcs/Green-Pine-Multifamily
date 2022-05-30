@@ -1,15 +1,9 @@
-import Calendar from 'react-calendar';
-import {Container, Row, Col} from 'reactstrap';
+import CalendarInfo from '../features/schedule/CalendarInfo'
+
 
 const TourPage = () => {
     return (
-        <Container>
-            <Row>
-                <Col md='5'>
-                    <Calendar />
-                </Col>
-            </Row>
-       </Container>
+        <CalendarInfo/>     
     );
 };
 

@@ -77,7 +77,7 @@ const Header2 = () => {
             </NavItem>
 
             <UncontrolledDropdown
-            inNavbar
+            inNavbar='true'
             nav
             >
             <DropdownToggle
@@ -86,7 +86,7 @@ const Header2 = () => {
             >
                 Frequent Asked Questions 
             </DropdownToggle>
-                <DropdownMenu right>
+                <DropdownMenu end>
                     <DropdownItem>
                         <NavLink className='nav-link' to="/FAQ Application"><DropdownItem >Applicant FAQ</DropdownItem></NavLink>
                     </DropdownItem>

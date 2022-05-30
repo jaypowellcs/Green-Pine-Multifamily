@@ -5,13 +5,12 @@ import lobby from '../../app/assets/img/apartmentlobby.jpg'
 
 const HomepageCarousel = () => {
     return (
-        <Container  className='home-page-carousel'>
-            <h3>Green Pines Apartment Homes</h3>
-        <UncontrolledCarousel
+        <Container className='home-page-carousel pt-0 ' fluid>
+        <UncontrolledCarousel 
             items={[
                 {
-                altText: '',
-                caption: '',
+                altText: 'Apartment Complex in Grapevine, Texas',
+                caption: 'Apartment Complex in Grapevine, Texas',
                 key: 1,
                 src: pool, 
                 },

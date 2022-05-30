@@ -29,8 +29,8 @@ const FloorPlanCard = ({floorplan}) => {
                 src={image}
                 alt={name}
             />
-            <Button>
-            Button
+            <Button className='p-2 m-3 btn btn-light'>
+                Request to rent
             </Button>
         </Card>
 
